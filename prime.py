@@ -12,7 +12,7 @@ print(" \033[0;32m ")
 user=str(input("Enter Tool Name : "))
 print("")
 password=str(input("\033[0;35mEnter Tool Password : "))
-if user=="0" and password=="0":
+if user=="prime" and password=="prime":
   print( "\033[0;36m ")
   def load():
    import time as t
