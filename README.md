@@ -5,3 +5,7 @@
 #cd tool
 
 #python prime.py
+
+#Tool Name=prime
+
+#Tool Password=prime
