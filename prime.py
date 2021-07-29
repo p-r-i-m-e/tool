@@ -14,19 +14,16 @@ print("")
 password=str(input("\033[0;35mEnter Tool Password : "))
 if user=="prime" and password=="prime":
   print( "\033[0;36m ")
-  def load():
-   import time as t
-   t.spleep(0.3)
-  for x in range(0,10,1):
-   import time as a
-   a.sleep(0.2)
-   print(" loading..")
-   x+=1
+  import time as t
+  t.sleep(0.3)
+  import os
+  os.system("pkg install toilet")
+  os.system("toilet -F gay P R I M E ")
   import time as a
   a.sleep(0.2)
-  print("""
+  print(" ")
+  print("""\033[0;36m
   Choose Your Opition
-
   1.Termux Packges
 
   2.Other Tools
@@ -35,9 +32,9 @@ if user=="prime" and password=="prime":
 
   4.Folliw Page
   
-  5.Exit """)
+  5.Exit \033[0m """)
   a.sleep(0.2)
-  print("")
+  print("\033[0;31m")
   choice=int(input("Enter Choice :"))
   try:
     if choice==1:
@@ -77,6 +74,7 @@ if user=="prime" and password=="prime":
       os.system("cd $HOME")
     else:
       print("\033[0;31m Your Choice Not Include!")
+      print("\033[0m ")
   except ValueError:
    print("\033[0;31m Enter the number only")
 else:
