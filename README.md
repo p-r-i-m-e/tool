@@ -1,3 +1,5 @@
-# tool for laner
+# Usage
+
 #cd tool
+
 #python prime.py
