@@ -39,6 +39,7 @@ if user=="prime" and password=="prime":
   try:
     if choice==1:
       import os
+      os.system("cd $Home")
       os.system("pkg update -y ")
       os.system("pkg upgrade -y")
       os.system("pkg install python3 -y")
